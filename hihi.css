@@ -12,9 +12,9 @@ body {
     height: 100vh;
     background: linear-gradient(45deg, #00853e, #50c878);
     display: flex;
-    justify-content: center;
+    margin: center;
     align-items: center;
-    font-family:"Roboto";
+    font-family: "Roboto";
     color: white;
 }
 
@@ -24,6 +24,7 @@ body {
     width: 300px;
     height: 400px;
     border-radius: 10px;
+    margin: auto;
     text-align: center;
     overflow: hidden;
 }
@@ -54,6 +55,8 @@ img{
 .card_social a{
     color: white;
     margin: 25px 20px;
+    text-align: center;
+
 }
 .card_social a:hover{
     color: #f2726a;
